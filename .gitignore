@@ -1,0 +1,39 @@
+# Local development tools and dependencies
+.DS_Store
+.idea/
+.vscode/
+.agents/
+.claude/
+.codex/
+node_modules/
+*.log
+
+# Machine configuration and credentials
+.env
+.env.*
+!.env.example
+auth.json
+local.properties
+key.properties
+keystore.properties
+*.keystore
+*.jks
+*.key
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+service-account*.json
+credentials.json
+**/*firebase-adminsdk*.json
+
+# Build output and local databases
+build/
+dist/
+coverage/
+*.apk
+*.aab
+*.apks
+*.sqlite
+*.sqlite-*
+*.sql.gz
